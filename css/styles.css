@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/trees.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    margin: 0;
+    font: 1em arial, sans-serif;
+    color: #fff;
+}
+
+div.content {
+    margin: auto;
+    background-color: rgb(173,204,187, 0.8);
+    width: 70%;
+    padding: 1px 16px;
+    position: relative;
+    min-height: 100%;
+}
+div.menu {
+    width: 100%;
+}
+div.menu div.menu-button {
+    height: 50px;
+    width: 65px;
+    margin-right: 50px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom; 
+    position: relative
+}
+div.menu div.menu-button img, div.menu div.menu-button a {
+    position: absolute;
+}
+div.menu div.menu-button a {
+    top: 20px;
+    left: -20px;
+    width: 80px;
+    color: #fffaff;
+    text-decoration: none;
+}
+div.menu div.menu-button a.rollover {
+    display: none;
+}
+div.menu div.menu-button:hover a.rollover {
+    display: inline-block;
+}
